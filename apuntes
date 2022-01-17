@@ -1,0 +1,8 @@
+
+1 - npm install -g firebase-tools
+2 - firebase logout
+3 - firebase login
+4 - firebase init
+5 - firebase init functions
+6 - firebase init emulators   
+7 - firebase  emulators:start 

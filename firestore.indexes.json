@@ -1,0 +1,157 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "egresos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "fecha",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "idcobrador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "monto-cobradores",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "created",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "id",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "monto-cobradores",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "estado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "monto-cobradores",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "monto-cobradores",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "monto-cobradores",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_cobrador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "monto-cobradores",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idcobrador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "prestamos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "estado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "idCliente",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "prestamos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "estado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "idCobrador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "usuarios",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "rol",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
