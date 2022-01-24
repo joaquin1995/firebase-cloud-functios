@@ -44,7 +44,13 @@ exports.historialatrasos = functions.firestore.document('/cobros/{cobrosId}').on
             createdAt: admin.firestore.FieldValue.serverTimestamp()
         }
     };
-    if (Number(monto) < Number(cuota)) {
+
+    await firestore
+        .collection(`historial-pagos`)
+        .doc()
+        .set({ ...json });
+
+    if (Number(monto) < Number(cuota) && fecha < fechaSistema) {
         console.log('historial-atrasos');
         const res = await firestore
             .collection(`historial-atrasos`)
